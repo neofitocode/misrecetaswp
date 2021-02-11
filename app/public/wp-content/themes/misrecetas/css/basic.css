@@ -1,143 +1,22 @@
-/*CSS Index y común*/
-.center{
-    text-align: center;
+* { 
+    box-sizing: border-box; /* border y el padding cuente como anchura */
+    font-family: 'Open Sans', sans-serif !important;
 }
-.nav{
-    padding: 10px;
+
+body {
+    overflow-x: hidden;
 }
-.logo{
-    width: 150px;
+
+a { 
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
     height: auto;
 }
-.main{
-    border: 1px solid goldenrod;
-    padding: 50px;
-    min-width: 350px;
-    margin-bottom: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.section-index{
-    width: 72.5%;
-    padding: 5px;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: rgb(243, 243, 243);
-}
-h2{
-    font-size: 22px;
-    padding-bottom: 10px;
-}
-.flex{
-    display: flex;
-}
-.recetas-index{
-    border: 1px solid rgb(82, 38, 38);
-    width:40%;
-    min-width: 200px;
-    max-width: 900px;
-    padding: 10px;
-    margin-bottom: 5px;
-}
-.aside{
-    width: 20%;
-    min-width: 150px;
-    max-width: 250px;
-    padding: 10px;
-    margin-left: auto;
-    margin-bottom: auto ;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: rgb(243, 243, 243);
-}
-.list-index{
-    background-color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.element-list{
-    padding-bottom: 10px;
-    font-size: 17px;
-}
-.footer{
-    border: 1px solid black;
-    background-color: rgb(243, 207, 201);
-    padding: 10px;
-    margin-bottom: 10px;
-}
-/*CSS Contactar*/
-.form{
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: rgb(243, 243, 243);
-    width: 360px;
-    margin: 0px auto;
-    padding: 5px;
-    text-align: center;
-}
-.div-form{
-    padding: 10px;
-    margin-bottom: 5px;
-}
-.input-form{
-    width: 270px;
-    height: 18px;
-}
-.textarea-form{
-    width: 270px;
-    height: 150px;
-}
-/*CSS Recetas*/
-.section-recetas{
-    width: 95%;
-    min-width: 350;
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    padding-top: 5px;
-    padding-bottom: 30px;
-    justify-content: space-around;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: rgb(243, 243, 243);
-}
-.div-autor-recetas{
-    min-width: 250px;
-    padding-left: 20px;
-    padding-right: 10px;
-}
-.pagination{
-    padding-top: 20px;
-    font-size: 18px;
-}
-/*CSS Receta Independiente*/
-.section-receta{
-    width: 70%;
-    min-width: 330px;
-    margin: auto;
-    padding: 20px;
-    padding-top: 5px;
-    padding-bottom: 30px;
-    justify-content: space-around;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: rgb(243, 243, 243);
-}
-/*CSS Imágenes*/
-.image{
-    width: 200px;
-    height: auto;
-    border: 3px solid rgb(82, 38, 38);
-    border-radius: 5px;    
-}
-.image-receta{
-    width: 300px;
-    height: auto;
-    border: 3px solid rgb(82, 38, 38);
-    border-radius: 5px;
+
+input {
+    font-size: inherit;
 }

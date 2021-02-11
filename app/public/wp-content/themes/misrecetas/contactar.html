@@ -9,36 +9,60 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <!--Logo Cabecera-->
-        <header class="center">
-            <a href="index.html"><img class="logo" src="images/misrecetas-logo.png" alt="Mis Recetas"></a>
-        </header>
-        <!--Navegación-->
-        <nav class="nav center">
-            <a href="index.html">Inicio</a> | 
-            <a href="recetas.html">Recetas</a> |
-            <strong>Contactar</strong>
-        </nav>
-        <!--Contenido principal-->
-        <main class="main">
-            <form class="form">
-                <div class="div-form">
-                    <label class="flex">
-                        <div>Nombre</div><input type="text" placeholder="Tu nombre" class="input-form">
-                    </label>
-                </div>
-                <div class="div-form">
-                    <label class="flex"><div>Email</div><input type="text" placeholder="Tu email" class="input-form"></label>
-                </div>
-                <label class="flex"><div>Mensaje</div><textarea placeholder="Escribe tu mensaje..." class="textarea-form"></textarea></label>
-                <div class="div-form">
-                    <button>Enviar mensaje</button>
-                </div>
-            </form>
-        </main>
-        <!--Footer-->
-        <footer class="footer center">
-            Footer - <a href="https://github.com/neofitocode" target="_blank"><strong>Cristian GR.</strong></a> - 2021 ©
-        </footer>
+        <div class="container">
+            <!--Cabecera-->
+            <header id="header" class="block-center-row mb-3">                
+                <a href="index.html"><img src="images/misrecetas-logo.png" alt="Mis recetas"></a>
+            </header>
+            <!--Navegación-->
+            <nav class="nav-main fnt-lg block-center-row mb-2">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="separator">|</li>
+                    <li><a href="recetas.html">Recetas</a></li>
+                    <li class="separator">|</li>
+                    <li>Contactar</li>                      
+                </ul>                             
+            </nav>
+            <!--Contenido principal-->
+            <main>
+                <form class="block-center-row fnt-xl">
+                    <div class="col-desk-5 col-tab-8 col-mob-12">
+                        <div class="grid mb-05">
+                            <div style="text-align: right" class="col-3">
+                                <label for="name">Nombre:</label>
+                            </div>
+                            <div class="col-9">
+                                <input id="name" class="input-basic" type="text">
+                            </div>                                                    
+                        </div>
+                        <div class="grid mb-05">
+                            <div style="text-align: right" class="col-3">
+                                <label for="email">Email:</label>
+                            </div>
+                            <div class="col-9">
+                                <input id="email" class="input-basic" type="text">
+                            </div>                                                    
+                        </div>
+                        <div class="grid mb-05">
+                            <div style="text-align: right" class="col-3">
+                                <label for="message">Mensaje:</label>
+                            </div>
+                            <div class="col-9">
+                                <textarea rows="6" id="message" class="input-basic"></textarea>
+                            </div>                                                    
+                        </div>
+                        <div class="block-center-row">
+                            <button class="btn primary fnt-lg rounded">Enviar mensaje</button>
+                        </div>
+                    </div>
+                </form>
+            </main>
+            <div class="mb-3"></div>
+            <!--Footer-->
+            <footer id="footer" class="pad-2 row-full block-center-row">
+                Misrecetas.com {<a href="https://github.com/neofitocode" target="_blank">Cristian GR.</a>} © 2021
+            </footer>
+        </div>
     </body>
 </html>
