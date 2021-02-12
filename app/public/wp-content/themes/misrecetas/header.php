@@ -21,7 +21,7 @@
                 wp_nav_menu(
                     array(
                         'theme_location' => 'menu-1',
-                        'menu_id0' => 'primary-menu,',
+                        'menu_id' => 'primary-menu,',
                         'container' => 'nav',
                         'container_class' => 'nav-main block-center-row mb-2'
                     )
