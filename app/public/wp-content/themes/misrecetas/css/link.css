@@ -1,7 +1,9 @@
-.link-normal {    
-    color: rgb(60, 49, 161);
+.link {}
+
+.link:hover {
+    text-decoration: underline;
 }
 
-.link-normal:hover {
-    text-decoration: underline;
+.link-normal {    
+    color: rgb(60, 49, 161);
 }

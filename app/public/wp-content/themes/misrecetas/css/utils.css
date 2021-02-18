@@ -6,11 +6,29 @@
     background-color: #ededed;
 }
 
+.bg-color {
+    background-color: rgb(242, 209, 166);
+    
+}
+
 .txt-color {
     color: red;
 } 
 
+.txt-light {
+    color: grey;
+}
+
 /* corners */
 .rounded {
     border-radius: 10px;
+}
+
+/* border */
+.border-light {
+    border: 2px solid brown;
+}
+
+.border-bottom {
+    border-bottom: 3px solid rgb(242, 209, 166);
 }

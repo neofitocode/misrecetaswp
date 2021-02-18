@@ -13,8 +13,8 @@
     <body>
         <div class="container">
             <!--Cabecera-->
-            <header id="header" class="block-center-row mb-3">                
-                <a href="index.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/misrecetas-logo.png" alt="Mis recetas"></a>
+            <header id="header" class="block-center-row mb-3 bg-color">                
+                <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/misrecetas-logo.png" alt="Mis recetas"></a>
             </header>
             <!--Navegación-->
             <?php
