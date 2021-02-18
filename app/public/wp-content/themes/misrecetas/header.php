@@ -23,7 +23,8 @@
                         'theme_location' => 'menu-1',
                         'menu_id' => 'primary-menu,',
                         'container' => 'nav',
-                        'container_class' => 'nav-main block-center-row mb-2'
+                        'container_class' => 'nav-main block-center-row mb-2',
+                        'after' => '<span>|</span>'
                     )
                 );
             ?>
